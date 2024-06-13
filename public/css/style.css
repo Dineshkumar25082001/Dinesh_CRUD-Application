@@ -1,0 +1,146 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    background-color: blueviolet;
+}
+
+body{
+    font-family: 'Roboto',sans-serif;
+    height: 1000px;
+    width: 800px;
+    background-color: white;
+    margin:0 auto;
+
+    
+}
+h2{
+    font: size 15px;
+    color: tomato;
+    padding: 10px;
+    border-bottom: 2px solid gray;
+}
+table{
+    width: 100%;
+    margin-top: 5px;
+    border:1px solid gray;
+    padding: 10px;
+    border-collapse: collapse;
+}
+table td{
+    border: 1px solid gray;
+    
+}
+table thead td{
+    padding: 5px;
+    background-color:white;
+    color: black;
+    font-weight: bold;
+}
+table tbody td{
+    padding: 5px ;
+}
+table tbody tr:nth-child(even){
+    background-color:rgb(148, 140, 140);
+}
+.edit,.Delete,.addbtn
+{
+    text-decoration: none;
+    color: white;
+    background-color:blue;
+    display: block;
+    width: 50px;
+    padding:2px ;
+    text-align: center;
+}
+
+.Delete{
+    background-color: rgb(197, 73, 24);
+}
+p{
+    text-align: right;
+    padding: 5px;
+}
+.addbtn{
+    background-color: darkslategray;
+    width: 80px;
+    height: 20px;
+    text-wrap: nowrap;
+    color: white;
+}
+.form-group
+{
+    margin-top: 15px;
+    padding: 5px;
+    display: block;
+    gap: 10px;
+    
+}
+.b1 {
+    margin-left: 15px;
+}
+.b2 {
+    margin-left: 30px;
+}
+.b3 {
+    margin-left: 40px;
+}
+.b4{
+    margin-left: 60px;
+}
+.b6{    margin-left: 30px;
+        margin-right: 5px;
+    }
+.b5{    margin-left: 70px;}
+.b7{
+    margin-left: 50px;
+    height: 60px;
+
+}
+#one
+{
+    margin-top: 25px;
+    background-color: rgb(20, 20, 223);
+    border: none;
+    padding: 12px;
+    border:1px solid blue;
+    height: 40px;
+    border-radius: 20px;
+    color: white;
+    cursor: pointer;
+    letter-spacing: 2px;
+    font-size: 1em;
+}
+#one:hover{
+    color: yellow;
+    cursor: pointer;
+    text-decoration: underline;
+
+}
+.alert
+{
+    display: block;
+    padding: 10px;
+    background-color: green;
+    border-radius: 3px;
+    height: 30px;
+    color: white;
+}
+#two
+{ margin-top: 25px;
+    background-color: rgb(20, 20, 223);
+    border: none;
+    padding: 12px;
+    border:1px solid blue;
+    height: 40px;
+    border-radius: 20px;
+    color: white;
+    cursor: pointer;
+    letter-spacing: 2px;
+    font-size: 1em;
+
+}

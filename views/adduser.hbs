@@ -1,0 +1,42 @@
+<h2>
+    Add New User</h2>
+    {{#if msg}}
+    <div class="alert">{{msg}}</div>
+    {{/if}}
+    <center>
+    <form method="post" action="/adduser" autocomplete="false">
+    <div class="form-group">
+          <label for="First" class="b1">First Name</label>
+          <input type="text" name="First" class="b1" required autofocus>
+    </div>
+    <div class="form-group">
+          <label for="Last">Last Name</label>
+          <input type="text" name="Last" class="b2" required>
+    </div>
+    <div class="form-group">
+          <label for="location">Location</label>
+          <input type="text" name="location" class="b3" required>
+    </div>
+       <div class="form-group">
+          <label for="email">Email</label>
+          <input type="email" name="email" class="b4" required>
+    </div>
+       <div class="form-group">
+          <label for="Dob">Dob</label>
+          <input type="text" name="Dob" class="b5">
+    </div>
+       <div class="form-group">
+          <label for="education">Education</label>
+          <input type="text" name="education" class="b6" required>
+    </div>
+       <div class="form-group">
+          <label for="about">About</label>
+          <input type="text" name="about" class="b7">
+     </div><br>
+      <div class="form-group">
+             <button id="one" type="submit">Save Details </button>
+             <a href="/">Back</a>
+
+      </div>
+    </form>
+</center>
